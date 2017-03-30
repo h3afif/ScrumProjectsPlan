@@ -1,2 +1,3 @@
 # ScrumProjectsPlan
 I share with you my Excel workbook which allowed me to follow the progress of my daily/weekly tasks on several projects and contacts. I also adapted it to be useful for managing a project using Agile Scrum methodology with several teams, features, stories and tasks. The workbook makes it easy to plan and target current and future sprints (based on one or more weeks). Each workbook encapsulates a release. After a release was delivered, its unfinished stories can be migrated and added to the next release. A snapshot of the previous release is kept in the workbook associated with this release.
+The workbook contains macros with available and safe VBA source code.
