@@ -64,13 +64,14 @@ The ‘StoryMapping’ sheet provides an area of 999 stories, but for performanc
 
 ### Warning :
 
-...Use this button on the new version of the tool
+>Use this button on the new version of the tool
 
-Before operating it, make sure that:
-* No filter is activated on the old workbook (otherwise only the filtered data will be migrated to the new version)
-* It is necessary to close the old workbook concerned by the migration.
-Then once you click the button prompts you to choose the old workbook and then the trick is played.
-If a dialog informs you that there is a big difference between the two versions, you can always continue. But this case must be checked if data is missing or are in the wrong place.
+>Before operating it, make sure that:
+>* No filter is activated on the old workbook (otherwise only the filtered data will be migrated to the new version)
+>* It is necessary to close the old workbook concerned by the migration.
+>Then once you click the button prompts you to choose the old workbook and then the trick is played.
+>If a dialog informs you that there is a big difference between the two versions, you can always continue. But this case must be checked if data is missing or >
+are in the wrong place.
 
 **6. [GOTO NEXT RELEASE>] button: ** Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.
 In this case values in the 'Ref.' column will be generated accordingly so that a Story will have a unique Ref regardless of releases.
