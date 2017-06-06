@@ -73,8 +73,8 @@ The ‘StoryMapping’ sheet provides an area of 999 stories, but for performanc
 >If a dialog informs you that there is a big difference between the two versions, you can always continue. But this case must be checked if data is missing or >
 are in the wrong place.
 
-⋅⋅⋅6. [GOTO NEXT RELEASE>] button: Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.⋅⋅
-⋅⋅⋅In this case values in the 'Ref.' column will be generated accordingly so that a Story will have a unique Ref regardless of releases.
+6. [GOTO NEXT RELEASE>] button: Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.
+In this case values in the 'Ref.' column will be generated accordingly so that a Story will have a unique Ref regardless of releases.
 
 # Intercepted events:
 
