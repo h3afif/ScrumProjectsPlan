@@ -63,11 +63,12 @@ The ‘StoryMapping’ sheet provides an area of 999 stories, but for performanc
 1. [SNAPSHOT] button: For people who do not like macro workbooks. This button generates a copy of the workbook without the macros (without the VBA code). The Snapshot is generated in the current directory with a suffix indicating the date and time of generation.
 1. [GOTO NEXT RELEASE>] button: Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.
 In this case values in the 'Ref.' column will be generated accordingly so that a Story will have a unique Ref regardless of releases.
+1. Dashboard status (above data sheet): First click on the status apply filter to show only stories having the clicked status. Second click on the same status disable this filter).
 1. [MIGRATE FROM ...] button: Useful if a new version of the tool is available in Github and you want to take advantage of its new features without retyping all Stories, so:
 
 ### Warning :
 
->Use this button on the new version of the tool
+>Use this button on the new version of workbook (the target ScrumProjectsPlan Wb)
 
 >Before operating it, make sure that:
 >* No filter is activated on the old workbook (otherwise only the filtered data will be migrated to the new version)
