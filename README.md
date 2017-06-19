@@ -19,82 +19,127 @@ Automatic protection has been added to the workbook (which can be disabled by th
 * Protection from conditional formatting amalgamation. Because after copying cell, the destination cell inherits the conditional formatting of the initial cell. This is not often appreciated by the user (disabling the Copy / Paste function on the cells).
 
 The user can at any time disable this protection if he wishes to adapt the workbook to his own convenience.
-**To do this :**
-1. Go to the 'Setting' sheet (click on the 'Setting' button at the top left of the 'StoryMapping'
-1. Press the 'DISABLE PROTECTION' and / or 'ALLOW COPY / PASTE'
-1. Click the 'BACK' button at the top left of the 'Setting' sheet to return to the previous sheet
-1. In the Excel 'Revision' menu, remove the protection from the sheet and, if necessary, the one from the workbook
-1. This time the protection will not be activated instantly (some time the protection may be restored after you press the other buttons of the workbook like the data migration).
 
+**To do it :**
+
+1. Go to the 'Setting' sheet (click on the 'Setting' button in SPP Ribbon tab: see bellow )
+1. In the 'Setting' sheet, press the 'DISABLE PROTECTION' and / or 'ALLOW COPY / PASTE' buttons.
+1. Click the 'Data' ribbon button to go back to Data sheet
+1. In the Excel 'Review' menu/tab, remove the protection from the sheet and, if necessary, the one from the workbook
+![enter image description here](https://lh3.googleusercontent.com/nQogFC8RVpaOsnxiCIxwD9ZoGP-wjAU2iLDBXBjZQGxCfEUacJhSj8kHN-tyowaL8oo9bm-_=s0 "protect.PNG")
+1. Doing this, the protection will not be activated instantly by SPP  (some time the protection may be restored after you press the other SPP buttons like the 'Migrate from' button).
+
+
+ ![enter image description here](https://lh3.googleusercontent.com/tpxjKsNmx-mDcOYXgurAJulOjGNK_plbnePRH5uqH-OhqJ1QHqU_aVDl9ujGOrmMg58LE86h=s0 "SPP_ribbon.PNG")
  
 # To begin :
 
 **(1)** Clean the workbook to remove the sample data provided by default:
 
-* Click on RESET DATA
+* Click on SPP button 'Reset Data'
+![enter image description here](https://lh3.googleusercontent.com/VQJnoejxFKS_dINun_XTmLAdk-9W4rBAWRbZB_kWfDoot8d_Mftg0BMFgZIg_8w2isTz2o6o=s0 "resetdata.PNG")
 
 **(2)** Change the configuration data according to your project as follows:
 
-+ Click on the [Setting] button at the top left of the 'StoryMapping' sheet.
++ Click on the [Setting] button.
+![enter image description here](https://lh3.googleusercontent.com/NpPyM7fmWXdv7AwPIMARNzEcOpHoWj2Ko7WNyP8aLys9-FD9zd5eDR0cbxNB-Mh-2_3H0E5w=s0 "setting.PNG")
 + Once in the 'Setting' sheet, make the following changes:
 
 ### In 'Setting':
 
 1. **Features**: Enter the list of projects or Features: Be careful the list must not exceed the bold frame. If you need it, insert new lines within this frame.
 Only the two columns are used by the tool. The 3rd is just to recall some useful details for planning.
+![enter image description here](https://lh3.googleusercontent.com/vHf5GMkz5n2T0y4jwVTFZ5X9o-XP1ijM2Gvak1JE8kvW-pd3q1jB45HQlecgw6l30BaURteP=s0 "set-features.PNG")
 1. **Module**: Adapt the list of 'Type / Module / Sprint / Version'. Same as above, you must respect the limits of the bold frame.
 By occasion you can change the color of these cells so that it applies later to your Stories dashboard.
+![enter image description here](https://lh3.googleusercontent.com/u2RpmoiVjy5MJF_Ym5a8QO_u_yFm_0G_TGHf7EF6mq6bgMQ-Vb5ozlmyU_MjcZ9Y6CTr8www=s0 "set-module.PNG")
 Other colors are available to the right of this list. If you are interested only copy the formatting of it on the 'Type / Module / Sprint / Version' list.
-1. **Status**: The statuses can also be changed according to your language. But only modify those within the black frame. Those outside the frame (left) must remain in English.
-The formatting of the font of these statuses can also be changed to be subsequently reflected later on the dashboard Stories.
+![enter image description here](https://lh3.googleusercontent.com/un6vT0f7-jDqHpdXxlLAe21w2dlPdlivFT0_aFzvbGRDPeR6eYWyOjoIenTtO2NFRQnaI3zH=s0 "set-module-palettes.PNG")
+1. **Status**: The status can also be changed according to your language. But only modify those within the black frame. Those outside the frame (left) must remain in English.
+The formatting of the font of these status can also be changed to be subsequently reflected later on the dashboard Stories.
+![enter image description here](https://lh3.googleusercontent.com/0itjm7FpygcRKpYTkcMXbOV1WEUTI22iSenYVn5jQqIVOuykzWPL0wYwBv1qHPPKRQOUP8y5=s0 "set-status.PNG")
 1. **Start / End**: The range of lines for which conditional formatting is to be applied is to be defined in the 2 fields ‘Stories / Tasks begin line’ and ‘Stories / Tasks end line’.
+![enter image description here](https://lh3.googleusercontent.com/BluP3YqWWsC0-ow9X9KZLbSSuMdnJMyAKxYXAPpzKToEIL-4iB_oEkDmnzj8vmdIj0At7dg9=s0 "set-start-begin.PNG")
 The ‘StoryMapping’ sheet provides an area of 999 stories, but for performance reasons only apply conditional formatting on the lines planned for the project. So start with an acceptable value for the 'Stories / Tasks end line' field. Thereafter you can readjust it if the number of stories exceeds this value.
 1. **Priority**: Likewise in the 'Priority' area, respect the limits of the frame and modify the color that suits you. The effect of this color will only be on the 'Priority' cell of the 'StoryMapping' dashboard, not on the wool line.
+ ![enter image description here](https://lh3.googleusercontent.com/jMvho6Wbe2nvC9H-_diuW9gtL7TgasmqMEWxjIhRWo3c8zSQV_F7FDQukW7sdDd4Yjl9-UDX=s0 "set-priority.PNG")
  
-+ Now that you have customized the configuration, you must apply these changes to the 'StoryMapping' dashboard. To do this :
-1. Return to the dashboard by clicking on the 'BACK' button at the top left of the 'Setting' sheet.
-1. Once in the 'StroyMapping' sheet, click on the 'UPDATE ALL Conditional format....' button and wait for a while (the value of 'Stories / Tasks end line' considerably affects this waiting time).
+**(3)** Now that you have customized the configuration, you must apply these changes to the 'StoryMapping' dashboard. To do this :
+
+1. Return to the StroyMapping dashboard by clicking on the SPP button 'Data' .
+1. Once in the 'StroyMapping' sheet, click on the SPP button 'Apply Setting....' ![enter image description here](https://lh3.googleusercontent.com/IVFN4tvM1_aHv4QYtxzGK7xG5Eb4J20KePmQyMDoq3VFbAtZHS5YOqu1J3f28a2vw17K6Dfa=s0 "applysetting.PNG")
+and wait for a while (the value of '***Stories / Tasks end line***' considerably affects this waiting time).
+ ![enter image description here](https://lh3.googleusercontent.com/BluP3YqWWsC0-ow9X9KZLbSSuMdnJMyAKxYXAPpzKToEIL-4iB_oEkDmnzj8vmdIj0At7dg9=s0 "set-start-begin.PNG")
 
 # Other functionality:
-1. [SHOW ACTIVES] button: Add a quick filter to show only activated stories: "In progress", "Not started" and Blank Status.
-1. [SHOW ALL DATA] button: Allows a single click to disable all applied filters. Useful especially before migrating data to a new version of the tool.
-1. [APPEND NEW STORY] button: Allows you to position yourself after the last story to allow the entry of a new one.
-1. [COPY AS NEW STORY] button: Adds a new Story copy of the selected Story to the end of the stories list. Just have the cursor on the Story line to copy (not outside!)
-1. [SNAPSHOT] button: For people who do not like macro workbooks. This button generates a copy of the workbook without the macros (without the VBA code). The Snapshot is generated in the current directory with a suffix indicating the date and time of generation.
-1. [GOTO NEXT RELEASE>] button: Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.
+In SPP ribbon tab:
+
+1. [Show Active] button: ![enter image description here](https://lh3.googleusercontent.com/0ZYO1qzFb_q-F6iDnC-7sWuMRzJJ6V1FHCar9cHBJV4qVDSGGJHFFbiiEKPS4kqG4YB4HF6T=s0 "showactive.PNG") Add a quick filter to show only activated stories with "In progress", "Not started" and Blank Status.
+1. [Show All] button: ![enter image description here](https://lh3.googleusercontent.com/Bt0rkspRCmow82fN9JGc73agd03SdTx5wQ1L-WvSxSODs0USrAp01Cwldas7HTayMp0dRZIZ=s0 "showall.PNG") Allows a single click to disable all applied filters. Useful especially before migrating data to a new version of the tool.
+1. [New Story] button: ![enter image description here](https://lh3.googleusercontent.com/QTqmaQ2mRYqCcvv6yOMqfVdVOx7LPgi9oe3LF1_9QdU6wTsf6CeWq8CqCPAaPz_gJnPuvqsK=s0 "newstory.PNG") Allows you to position yourself after the last story to allow the entry of a new one.
+1. [Copy as new] button: ![enter image description here](https://lh3.googleusercontent.com/jabRuTToXWweS8t5UQYFwM9Fg_6-Hx9yax3D8zbYEN2s_LNi0czl_ocnN7L8gE2BXmf2oev_=s0 "copyasnew.PNG") Adds a new Story as a copy of the selected Story to the end of the stories list. Just have the cursor on the Story line to copy (not outside!)
+1. [Snapshot] button: ![enter image description here](https://lh3.googleusercontent.com/kl-HwuYQUD0KlPkQIafMiF0Lm4hw6Fg2MDXKRQOVS-luyh-E7dE-c5PV_MCgGuYuXbCCqiQA=s0 "snapshot.PNG") For people who do not like macro workbooks. This button generates a copy of the workbook without the macros (without the VBA code). The Snapshot is generated in the current directory with a suffix indicating the date and time of generation.
+1. [Goto next release>] button: ![enter image description here](https://lh3.googleusercontent.com/-fC6yK4IELFktlY4IUEY7BWyd61EtKv72qw0Ly0oJHi0Zup5I7kn4JVhsvSib_YY_Shn0X87=s0 "gotonextrelease.PNG") Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.
 In this case values in the 'Ref.' column will be generated accordingly so that a Story will have a unique Ref regardless of releases.
-1. Dashboard status (above data sheet): First click on the status apply filter to show only stories having the clicked status. Second click on the same status disable this filter).
-1. [MIGRATE FROM ...] button: Useful if a new version of the tool is available in Github and you want to take advantage of its new features without retyping all Stories, so:
 
-### Warning :
+1. Dashboard ***status*** (above data sheet): First click on the status apply filter to show only stories having the clicked status. A second click on the same status disable this filter.
+![enter image description here](https://lh3.googleusercontent.com/e5ch9eMh_rGIaUQ7TmwURvBK3Mjcy87tnLZmsYl-Zmo2QzLMQqE4PqKim4i08gRrBTskk8FG=s0 "dashboard.PNG")
+![enter image description here](https://lh3.googleusercontent.com/W13E1m3teFPN1REnp464YbfxkirfUZrlR14pNT6w3Ju_SAJmvD9BNBK9DwVxeuA5daTZehKi=s0 "dashboard-status.PNG")
+1. [Migrate from...] button: ![enter image description here](https://lh3.googleusercontent.com/50V8mxrsaKAQcH_oz6IoyTLBkMsaWHBpUubiOYcnzHUhlmw5vIvxrslNI97LrJWg4_C2drl4=s0 "migratefrom.PNG") Useful if a new version of the tool is available in Github and you want to take advantage of its new features without retyping all Stories, so:
 
->Use this button on the new version of workbook (the target ScrumProjectsPlan Wb)
-
->Before operating it, make sure that:
->* No filter is activated on the old workbook (otherwise only the filtered data will be migrated to the new version)
->* It is necessary to close the old workbook concerned by the migration.
->Then once you click the button prompts you to choose the old workbook and then the trick is played.
->If a dialog informs you that there is a big difference between the two versions, you can always continue. But this case must be checked if data is missing or are in the wrong place.
+> ### Warning :
+> 
+> >Use this button ![enter image description here](https://lh3.googleusercontent.com/50V8mxrsaKAQcH_oz6IoyTLBkMsaWHBpUubiOYcnzHUhlmw5vIvxrslNI97LrJWg4_C2drl4=s0 "migratefrom.PNG") on the new version of workbook (the target ScrumProjectsPlan Wb)
+> 
+> >Before operating it, make sure that:
+> >* No filter is activated on the old workbook (otherwise only the filtered data will be migrated to the new version)
+> >* It is necessary to close the old workbook before  migration.
+> >Then once you click the button prompts you to choose the old workbook and then the trick is played.
+> >Before migration starts, you may be prompted by a dialog informing you that there is a big difference between the two versions but you can always chose to continue migration. In this case you must check the resulting SPP workbook if there is a missing data or it's in no expected place.
 
 
 # Intercepted events:
 
 The tool performs some operations to keep track of changes on the 'Status' and 'Reviewed Date' key cells:
-1. 'Closure or Applied Date' column: The closing date is entered automatically if the Story is closed or canceled. You can change this date later and it will not be affected by the change of status.
-1. LOG column: This column shows all changes in the columns 'Status' and 'Date'. If you want to see the entire LOG history, switch the Excel function 'Wrap to line automatically'
+1. 'Closure or Applied Date' column: If this date is not filled, it will be entered self-filled if the status of story become closed or canceled. You can change this self-filled date if you desire.
+1. LOG column: This read-only column shows you all changes happen in the columns 'Status' and 'Date'. If you want to see the entire LOG history, select a cell and switch the Excel button 'Wrap text' and switch it back.
 
 # Working with Sprints:
 
-The ‘Current Sprint / Week’ cell indicates the current week or the first week of the current Sprint.
-You can thus target this Sprint via a filter on the column 'Target Sprint / Week'
+The ‘Current Week’ cell indicates the current week based on the OS date.
+Followed by a combo-cell to let you select a week to apply filter showing only stories of the sprint witch begin at the selected week.
+![enter image description here](https://lh3.googleusercontent.com/-04_eAlm7xwUQ3CIFdinCguJ_y1dthfud2_v_G8ydMPQ7T_0cJOaACAUFEEEFy95slW83ZXm=s0 "current-week.PNG")
+This filter is applied on the column 'Target Sprint / Week':
+![enter image description here](https://lh3.googleusercontent.com/vaJeYMpwDZhEwMu296Nm6fDcXoaqrKtDHgPIN-odbnlySVkx8h-fzJRP4VFyKPrHCxOstqq8=s0 "target-sprint.PNG")
+On the combo-cell only first week of sprint is visible and chosing this week will show stories of all week in the sprint (including the first one).
+If you start planning a new sprint, don't forget to synchronize the combo-cell with these change by clicking on the SPP button 'Compute weeks' ![enter image description here](https://lh3.googleusercontent.com/rkWnDcD2aVOxMq6SjKNPeM2rD9YL2HqxtyYHUpFHiG6PA4vCW4gvMylWu-u05JSUqMphsMXX=s0 "computeweeks.PNG"). 
+To let this computation be done correctly and let it find the sprint boundaries, please have practice to mark end of sprint by inserting a special story 'Deployment' as configured in 'Setting'.
+In Setting:
+![enter image description here](https://lh3.googleusercontent.com/dcj8dvWoVZAC4Rj1t_XoPiOLId5GtH6yXvDd1p9CJsZD6u369ogSgMURYPvJUpsMUlTU2PAI=s0 "deployment.PNG")
+In Data sheet:
+![enter image description here](https://lh3.googleusercontent.com/O6KKEMhLSZnJmHmcBaL_b6sybNnckIY5Dex8R0j--S_QnP4Nx7qGT4TobkEmgtn8coIE8qON=s0 "sprint-boundaries.PNG")
+ 
 
 # Working with Stories / Tasks:
 
-Each line represents a Story and its change affects the 'ReleasProgress' sheet. On the other hand the tasks, to carry out the Story, are entered in the column 'Task / Comment' without monitoring their progress.
-For my case, I use the following convention for tasks:
-* Prefix '-': task defined but not started yet
-* The prefix '+': task performed
-* The prefix '=>': task In progress
+Each line represents a Story and change in its closure date affects the 'ReleaseProgress' sheet.
+On the other hand, to carry out the Story, and unlike stories a related tasks are entered in the column 'Task / Comment' without any monitoring of their progress.
+
+> For my case, I use the following convention for tasks:
+> * prefix '-': task defined but not started yet
+> * prefix '+': task performed
+> * prefix 'X': task canceled
+> * prefix '=>': task In progress
+> * if a task have a sub-taks, these one follow the main task with following prefixes:
+>
+> * '_': sub-task defined but not yet done.
+> * '_/': sub-task done.
+> * '_x': sub_task canceled.
 
 # Modifiable data:
-If the protection mode is activated (to be sure check the 'DISABLE PROTECTION' and / or 'ALLOW COPY / PASTE' buttons if are red colored in 'Setting'), the cells to be left unlocked are locked and Excel Does not allow you to modify them. So no worries about this :-)
+If the protection mode (see chapter above) is activated (to be sure if it's enabled, check 'Setting' buttons 'DISABLE PROTECTION' and / or 'ALLOW COPY / PASTE' buttons if are in red colored):
+
+ - the cells to be left unlocked are locked
+ - and Excel Does not allow you to modify them.
+
+So no worries about this :-)
