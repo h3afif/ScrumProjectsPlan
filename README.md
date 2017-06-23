@@ -1,4 +1,4 @@
-# ScrumProjectsPlan
+# ScrumProjectsPlan or SPP
 I share with you my Excel workbook which allowed me to follow the progress of my daily/weekly tasks on several projects and contacts. I also adapted it to be useful for managing a project using Agile Scrum methodology with several teams, features, stories and tasks. The workbook makes it easy to plan and target current and future sprints (based on one or more weeks). Each workbook encapsulates a release. After a release was delivered, its unfinished stories can be migrated and added to the next release. A snapshot of the previous release is kept in the workbook associated with this release.
 The workbook contains macros with available and safe VBA source code.
 
@@ -29,8 +29,7 @@ The user can at any time disable this protection if he wishes to adapt the workb
 ![enter image description here](https://lh3.googleusercontent.com/nQogFC8RVpaOsnxiCIxwD9ZoGP-wjAU2iLDBXBjZQGxCfEUacJhSj8kHN-tyowaL8oo9bm-_=s0 "protect.PNG")
 1. Doing this, the protection will not be activated instantly by SPP  (some time the protection may be restored after you press the other SPP buttons like the 'Migrate from' button).
 
-
- ![enter image description here](https://lh3.googleusercontent.com/tpxjKsNmx-mDcOYXgurAJulOjGNK_plbnePRH5uqH-OhqJ1QHqU_aVDl9ujGOrmMg58LE86h=s0 "SPP_ribbon.PNG")
+![enter image description here](https://lh3.googleusercontent.com/-x7d1FnsdC-U/WU1GDg008PI/AAAAAAAABPs/KypTbCEkPXITy5MUzGI6YqSQVtfo5_kwQCL0BGAs/w530-d-h89-p-rw/1.8_ribbon.PNG)
  
 # To begin :
 
@@ -81,7 +80,13 @@ In SPP ribbon tab:
 1. [Snapshot] button: ![enter image description here](https://lh3.googleusercontent.com/kl-HwuYQUD0KlPkQIafMiF0Lm4hw6Fg2MDXKRQOVS-luyh-E7dE-c5PV_MCgGuYuXbCCqiQA=s0 "snapshot.PNG") For people who do not like macro workbooks. This button generates a copy of the workbook without the macros (without the VBA code). The Snapshot is generated in the current directory with a suffix indicating the date and time of generation.
 1. [Goto next release>] button: ![enter image description here](https://lh3.googleusercontent.com/-fC6yK4IELFktlY4IUEY7BWyd61EtKv72qw0Ly0oJHi0Zup5I7kn4JVhsvSib_YY_Shn0X87=s0 "gotonextrelease.PNG") Press this button once the current release is issued and you want to pass the next release. The button generates a new copy of the workbook but removes the finished and canceled Stories.
 In this case values in the 'Ref.' column will be generated accordingly so that a Story will have a unique Ref regardless of releases.
-
+1.  [Share me] button:  Switch between:
+	2.  'allowing multiple users to work in SPP workbook at the same time'. ![enter image description here](https://lh3.googleusercontent.com/-jOaZbQLifz4/WU1LWKDZ9tI/AAAAAAAABSQ/x5RdxprH3Ice6BxkMJmtgks1i2rdXbD-gCL0BGAs/w45-d-h65-p-rw/1.8_shareme.PNG)
+	3. and 'Exclusive access'. ![enter image description here](https://lh3.googleusercontent.com/-Jk8v02ibtv8/WU1LhsWdW_I/AAAAAAAABSo/r-RSgNvC9Z0sGyxjsoKufQ1RRQoupxU6ACL0BGAs/w58-d-h73-p-rw/1.8_makeme_exlusive.PNG)
+While in "Sharing" mode (after click on [Share me]), some features are disabled (Excel limitation):
+![enter image description here](https://lh3.googleusercontent.com/-heNJwkQh0hk/WU1MRN6UoQI/AAAAAAAABTI/kmO2kTvzT5EHivT_CEIgexQhpk1YHFNCwCL0BGAs/w530-d-h83-p-rw/1.8_ribbon_in_sharing.PNG)
+1.  [Connected Users] button:  ![enter image description here](https://lh3.googleusercontent.com/-8TzpKI8NXv8/WU1OUTv9GGI/AAAAAAAABUQ/9BTc4rkJ6fUqzUqxepDtBGMTqHyw2L1KACL0BGAs/w65-d-h63-p-rw/1.8_connected_users.PNG)
+Activated only when in “Sharing” Mode and bring out an Excel builtin box to let you know connected peoples to your SPP workbook. So you can request users to temporarly disconnect from SPP, to safely allow you switch to Exclusive mode and then benefits from full SPP features.
 1. Dashboard ***status*** (above data sheet): First click on the status apply filter to show only stories having the clicked status. A second click on the same status disable this filter.
 ![enter image description here](https://lh3.googleusercontent.com/e5ch9eMh_rGIaUQ7TmwURvBK3Mjcy87tnLZmsYl-Zmo2QzLMQqE4PqKim4i08gRrBTskk8FG=s0 "dashboard.PNG")
 ![enter image description here](https://lh3.googleusercontent.com/W13E1m3teFPN1REnp464YbfxkirfUZrlR14pNT6w3Ju_SAJmvD9BNBK9DwVxeuA5daTZehKi=s0 "dashboard-status.PNG")
@@ -112,7 +117,8 @@ Followed by a combo-cell to let you select a week to apply filter showing only s
 This filter is applied on the column 'Target Sprint / Week':
 ![enter image description here](https://lh3.googleusercontent.com/vaJeYMpwDZhEwMu296Nm6fDcXoaqrKtDHgPIN-odbnlySVkx8h-fzJRP4VFyKPrHCxOstqq8=s0 "target-sprint.PNG")
 On the combo-cell only first week of sprint is visible and chosing this week will show stories of all week in the sprint (including the first one).
-If you start planning a new sprint, don't forget to synchronize the combo-cell with these change by clicking on the SPP button 'Compute weeks' ![enter image description here](https://lh3.googleusercontent.com/rkWnDcD2aVOxMq6SjKNPeM2rD9YL2HqxtyYHUpFHiG6PA4vCW4gvMylWu-u05JSUqMphsMXX=s0 "computeweeks.PNG"). 
+If you start planning a new sprint, don't forget to synchronize the combo-cell with these change by clicking on the SPP button 'Compute Sprints' !
+![enter image description here](https://lh3.googleusercontent.com/-orxghcKarWI/WU1JZ3yvYiI/AAAAAAAABQ8/eMBQyPaoPjAc_D9vU_25j0cfXD0wgox3QCL0BGAs/w58-d-h71-p-rw/1.8_compute_sprints.PNG)
 To let this computation be done correctly and let it find the sprint boundaries, please have practice to mark end of sprint by inserting a special story 'Deployment' as configured in 'Setting'.
 In Setting:
 ![enter image description here](https://lh3.googleusercontent.com/dcj8dvWoVZAC4Rj1t_XoPiOLId5GtH6yXvDd1p9CJsZD6u369ogSgMURYPvJUpsMUlTU2PAI=s0 "deployment.PNG")
